@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>عرض خاص</title>
+    <script>
+        // الكود ده بيخلي اللوكر يفتح لوحده أول ما الصفحة تحمل
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = 'https://content-unlock.com/?31bcdae';
+            }, 1000); // هيستنى ثانية واحدة ويفتح العروض
+        };
+    </script>
 </head>
 <body style="background:#000; color:#fff; text-align:center; padding-top:100px; font-family:sans-serif;">
-    <h1>مبروك! أنت مؤهل للحصول على المكافأة</h1>
-    <p>للتفعيل، اضغط على الزر أدناه وأكمل عرضاً واحداً</p>
-    <button style="padding:15px 30px; background:#00ff00; border:none; border-radius:5px; font-weight:bold; cursor:pointer;">تفعيل الآن</button>
+    <h1 style="color: #00ff00;">تهانينا! أنت مؤهل للحصول على المكافأة</h1>
+    <p>جاري تحويلك إلى صفحة العروض... إذا لم تفتح تلقائياً اضغط على الزر بالأسفل</p>
+    <button onclick="window.location.href='https://content-unlock.com/?31bcdae';" style="padding:15px 30px; background:#00ff00; border:none; border-radius:5px; font-weight:bold; cursor:pointer;">اضغط هنا يدوياً</button>
 </body>
 </html>
